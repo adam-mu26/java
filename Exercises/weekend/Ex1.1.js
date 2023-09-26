@@ -1,4 +1,4 @@
-function String(i) {
+function  boolToString(i) {
     return i ? "Yes" : "No";
   }
   

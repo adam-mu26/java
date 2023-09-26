@@ -12,8 +12,8 @@ function sumTwoSmallestNumbers(numbers) {
   }
   
  
-  const result1 = sumTwoSmallestNumbers([19, 5, 42, 2, 77]);
-  console.log(result1); 
+  const result4 = sumTwoSmallestNumbers([19, 5, 42, 2, 77]);
+  console.log(result4); 
   
-  const result2 = sumTwoSmallestNumbers([10, 343445353, 3453445, 3453545353453]);
-  console.log(result2);
+  const result3 = sumTwoSmallestNumbers([10, 343445353, 3453445, 3453545353453]);
+  console.log(result3);
