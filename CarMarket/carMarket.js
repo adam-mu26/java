@@ -726,26 +726,20 @@ console.log(carMarket);
 
 
 
+function funcA() { 
+  console.log(a);
+  console.log(foo()); 
+  var a = 1; 
+  function foo() {
+  return 2; 
+}
+  } funcA();
+// cannot consle log (a) because the defination of var a comes after  log and connot take value unless it was before loging we can fix it by moving the log after the var difinition 
 
 
 
-//Change the cash or credit of an agency//
-// agency.keys(sellers).forEach((credit) => {
-//     if(typeof sellers[credit] == "num"){
-//         sellers[credit] = 170000
-//     }
-// })
-// console.log(sellers)
 
-// Use Object Keys
 
-//   const index = sellers.findIndex(agencyId => {
-//     return agencyId.id === "Plyq5M5AZ";
-//   });
-//   console.log(index); // 👉️ 1
-
-//   arr[index].credit = 'Alfred';
-//   console.log(arr);
 
 
 // Customer Operation (1) // 
